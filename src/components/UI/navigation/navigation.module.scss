@@ -1,0 +1,11 @@
+.container {
+	padding: 5px 20px;
+	background: white;
+	display: flex;
+	align-items: center;
+
+	.arrow {
+		padding: 0 7px;
+		cursor: default;
+	}
+}
