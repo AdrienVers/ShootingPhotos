@@ -43,7 +43,7 @@ export default function Home() {
 			</div>
 			<div
 				className="Description"
-				style={{ backgroundColor: "rgb(240, 240, 241)" }}
+				style={{ backgroundColor: "rgb(240, 240, 240)" }}
 			>
 				<div className="DescriptionText">
 					<h3>Étape 3 : Vous sélectionnez les photos à retoucher</h3>

@@ -46,6 +46,7 @@ const ExchangeContentGlobal = styled.div`
 		font-size: 1.7rem;
 		padding: 20px 0px 5px 30px;
 		margin: 0px;
+		color: black;
 	}
 
 	.ExchangeList {
@@ -78,12 +79,14 @@ const ExchangeContentGlobal = styled.div`
 					align-items: center;
 					justify-content: center;
 					padding: 8px;
+					color: black;
 				}
 
 				span {
 					display: flex;
 					align-items: center;
 					padding: 8px;
+					color: black;
 				}
 			}
 		}

@@ -25,8 +25,10 @@ export default ExchangeDescription;
 const ExchangeDescriptionGlobal = styled.div`
 	background-color: white;
 	padding: 20px 40px;
+	color: black;
 
 	p {
 		font-size: 1.1rem;
+		color: black;
 	}
 `;
