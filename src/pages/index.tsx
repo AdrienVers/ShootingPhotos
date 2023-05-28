@@ -1,7 +1,10 @@
 import Head from "next/head";
 import styled from "@emotion/styled";
 import Image from "next/image";
-import Photoshoot from "../assets/Photoshoot.jpg";
+import Illustration1 from "../assets/Illustration1.jpeg";
+import Illustration2 from "../assets/Illustration2.jpeg";
+import Illustration3 from "../assets/Illustration3.jpeg";
+import Illustration4 from "../assets/Illustration4.jpeg";
 
 export default function Home() {
 	return (
@@ -17,28 +20,28 @@ export default function Home() {
 				style={{ backgroundColor: "rgb(240, 240, 240)" }}
 			>
 				<div className="DescriptionText">
-					<h3>Étape 1 : Photoshoot avec le modèle.</h3>
+					<h3>Étape 1 : Photoshoot</h3>
 					<p>
 						{
-							"Lors de cette étape, le photographe effectue un photoshoot avec le modèle. En fonction de l'objectif de la séance photo, le modèle peut être habillé de manière élégante ou décontractée. Le but est de créer des photos qui mettent en valeur les qualités du modèle et de faire en sorte que ces photos répondent aux besoins de l'entreprise ou du client. La préparation avant le photoshoot, comme la sélection de l'emplacement, la planification de la tenue du modèle, est importante pour garantir un résultat de qualité."
+							"Au cours de cette première étape, le photographe réalise une séance photo avec le modèle. Selon le but de cette séance, le modèle pourrait être vêtu de manière formelle ou décontractée. Le principal objectif est de créer des clichés qui mettent en avant les atouts du modèle et qui correspondent aux besoins du client ou de l'entreprise. La préparation préalable à cette séance, comme le choix du lieu, la planification des tenues du modèle, est essentielle pour assurer des résultats de haute qualité."
 						}
 					</p>
 				</div>
 				<div className="DescriptionImage">
-					<Image className="Image" src={Photoshoot} alt="PhotoShoot" />
+					<Image className="Image" src={Illustration1} alt="PhotoShoot" />
 				</div>
 			</div>
 			<div className="Description">
 				<div className="DescriptionText">
-					<h3>Étape 2 : Vous recevez les photos du photoshooting</h3>
+					<h3>Étape 2 : Sélection des photos</h3>
 					<p>
 						{
-							"Après le photoshoot, vous recevez les photos prises sur l'application. Vous pouvez examiner attentivement les photos et en vue de les sélectionner celles qui répondent à vos attentes et qui méritent d'être améliorées, ou celles que vous considérez déjà belles mais qui nécessitent des modifications."
+							"Suite au photoshoot, vous avez l'occasion d'examiner minutieusement les clichés obtenus. Le but est de repérer les photos qui correspondent le mieux à vos attentes et qui nécessitent des retouches, ou encore les photos déjà remarquables mais requérant quelques modifications."
 						}
 					</p>
 				</div>
 				<div className="DescriptionImage">
-					<Image className="Image" src={Photoshoot} alt="Photoshoot" />
+					<Image className="Image" src={Illustration2} alt="Photoshoot" />
 				</div>
 			</div>
 			<div
@@ -46,28 +49,28 @@ export default function Home() {
 				style={{ backgroundColor: "rgb(240, 240, 240)" }}
 			>
 				<div className="DescriptionText">
-					<h3>Étape 3 : Vous sélectionnez les photos à retoucher</h3>
+					<h3>Étape 3 : Retouche des photos</h3>
 					<p>
 						{
-							"Une fois les photos reçues, vous pouvez sélectionner les photos à retoucher. Il est important de choisir les photos qui ont le plus de potentiel et de les retoucher pour les améliorer. Cela peut inclure la correction des couleurs, l'ajout d'effets et la suppression d'éléments indésirables."
+							"Après avoir sélectionné les photos à retoucher, l'étape de post-production commence. Cette étape peut impliquer la correction des couleurs, l'ajout d'effets spéciaux et la suppression de tout élément indésirable. Le but est de sublimer les photos sélectionnées pour les améliorer et répondre à vos attentes."
 						}
 					</p>
 				</div>
 				<div className="DescriptionImage">
-					<Image className="Image" src={Photoshoot} alt="Photoshoot" />
+					<Image className="Image" src={Illustration3} alt="Photoshoot" />
 				</div>
 			</div>
 			<div className="Description">
 				<div className="DescriptionText">
-					<h3>Étape 4 : Vous recevez les photos retouchées</h3>
+					<h3>Étape 4 : Le modèle reçoit les photos retouchées</h3>
 					<p>
 						{
-							"Après avoir retouché les photos, le photographe vous les renvoit sur l'application. Il est important de vérifier attentivement les photos retouchées pour vous assurer qu'elles correspondent à vos attentes. Si vous avez des commentaires ou des modifications supplémentaires à apporter, vous pouvez les faire savoir et les retouches seront effectuées en conséquence. Une fois que les photos retouchées sont approuvées, elles peuvent être utilisées pour vos propres besoins ou ceux de votre entreprise."
+							"Une fois les retouches terminées, le photographe envoie les photos retouchées au modèle. Le modèle doit alors les examiner attentivement pour vérifier qu'elles correspondent bien à ses attentes. Si des commentaires ou des modifications supplémentaires doivent être faits, le modèle peut les indiquer et les ajustements seront réalisés en conséquence. Une fois que les photos retouchées sont validées, elles sont prêtes à être utilisées pour les besoins du modèle ou de l'entreprise."
 						}
 					</p>
 				</div>
 				<div className="DescriptionImage">
-					<Image className="Image" src={Photoshoot} alt="Photoshoot" />
+					<Image className="Image" src={Illustration4} alt="Photoshoot" />
 				</div>
 			</div>
 		</HomeGlobal>
