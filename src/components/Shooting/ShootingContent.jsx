@@ -75,7 +75,7 @@ function ShootingContent() {
 									handleZoomPhoto(item.url);
 								}}
 							>
-								<Image
+								<img
 									className={styles.photo}
 									key={item.id}
 									src={item.url}
