@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Image from "next/image";
+// import Image from "next/image";
 import styles from "./edited.module.scss";
 import Zoom from "../UI/zoom/Zoom";
 
@@ -34,7 +34,7 @@ function EditedContent() {
 									handleZoomPhoto(item.url);
 								}}
 							>
-								<Image
+								<img
 									className={styles.photo}
 									key={item.id}
 									src={item.url}
