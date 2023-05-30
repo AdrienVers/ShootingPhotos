@@ -14,7 +14,7 @@ export default function Home() {
 				<meta name="description" content="Joseph Paris Visuals" />
 				<link rel="icon" href="/icon.ico" />
 			</Head>
-			<h1>Application de partage et de retouche photos</h1>
+			<h1>Application de partage et retouche photos</h1>
 			<div
 				className="Description"
 				style={{ backgroundColor: "rgb(240, 240, 240)" }}
